@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mullet-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/mullet-pcb-rescue.lib)(options "")(descr ""))
+)
