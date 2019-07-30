@@ -1,0 +1,61 @@
+Default settings are designed for atmega8 (with external 16MHz crystal)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+First you have to bring the USBaspLoader into the MCU by some conventional
+way, for example by using the traditional LPT1 on an old computer:
+
+--> avrdude -p m8 -c pony-stk200 -e -U flash:w:bootloaderfirmware.hex <--
+
+Or via an already existing MCU, flashed with the USBasp Programmer:
+
+--> avrdude -p m8 -c usbasp      -e -U flash:w:bootloaderfirmware.hex <--
+
+
+If you already have an existing (and spminterface supporting) USBaspLoader
+flashed and you just want to update the loader to new features/version,
+you can use its integrated update-feature by flashing the update-firmware.
+After executing it at least one time, it will replace the old loader with
+the new one contained within the update. Then you can start flashing other
+firmwares, again...
+
+
+Since the atmega8 (used as default) is 5V, the recommended USB-Schematics
+should use zeners. (for more information see the VUSB designrecommendation
+with the two 1N4729 zener diodes as level limiter...)
+Because it is most unlikely to use the atmega8 as analogous comperator
+(there are much more cheap ICs for this), it is recommended to use those
+PINs for USB-Interface (this is the default, but it can be changed):
+
+USBD+ (green) --> PIN4  (PD2)       (usually INT0 PIN)
+USBD- (white) --> PIN13 (PD7, AIN1) (new since Rev.3)
+
+BUTTON SWITCH --> PIN12 (PD6, AIN0) (new since Rev.3)
+
+Since the PD6 and PD7 lines were swapped in example board revision 3,
+it is possible to use the internal analogous comperator module, too.
+(Since AIN1 can be remapped to an other PIN but AIN0 not.)
+Now having the BUTTON SWITCH on AIN0 allows external connections to
+this PIN. Before Rev.3 (Rev2 and older) this was not possible, since
+USBD- needs to be exclusive and is not routed to an external PIN on
+the board. (Now USBD- is on AIN1, which can be remapped.)
+
+The bootloader bootup logic has changed a little bit, compared to the
+original JUMPER-logic within original USBaspLoader 2010-07-27.
+However most of the new logic is compatible with old JUMPER schematics:
+
+When RESET/PowerUP while BUTTON is pressed (PIN12 is low), then bootloader
+will start. Even if the BUTTON is released after this and PIN12 becomes HIGH,
+the bootloader stays active and listens to commands as long as the BUTTON 
+will be pressed (and so PIN12 becomes low) again...
+
+If the BUTTON is NOT pressed at RESET/PowerUP, or pressed again while
+in bootloader, the user defined firmware is started.
+
+
+
+
+for default atmega8 recommended MCU-settings are:
+
+LFUSE: 0x1f
+HFUSE: 0xc0
+LOCK : 0x3f (unchanged - the bootsection is protected via loader software)

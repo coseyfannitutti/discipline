@@ -1,0 +1,13 @@
+updater/usbasploader.raw
+updater/usbasploader.o
+updater/updater.o
+updater/updater.map
+updater/updater.hex
+updater/updater.elf
+updater/updater.asm
+firmware/usbdrv/usbdrvasm.o
+firmware/usbdrv/oddebug.o
+firmware/main.o
+firmware/main.map
+firmware/main.elf
+firmware/main.asm
