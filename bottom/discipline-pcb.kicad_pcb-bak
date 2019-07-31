@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 0)
     (zones 0)
     (modules 15)
@@ -487,6 +487,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 8.6 8.6) (drill 4.3) (layers *.Cu *.Mask))
   )
 
+  (gr_text JLCJLCJLCJLC (at 307.923938 67.243533) (layer F.SilkS)
+    (effects (font (size 0.9 0.9) (thickness 0.16)))
+  )
   (gr_text coseyfannitutti (at 118.1115 133.50974) (layer B.Mask) (tstamp 5D1E7AE5)
     (effects (font (size 2.5 1.5) (thickness 0.2)) (justify mirror))
   )

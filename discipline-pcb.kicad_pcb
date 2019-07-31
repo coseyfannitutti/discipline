@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 43)
+    (drawings 42)
     (tracks 2173)
     (zones 0)
     (modules 182)
@@ -8961,9 +8961,6 @@
   )
   (gr_text "DISCIPLINE - 65% keyboard made with only through hole components" (at 341.980912 260.755196) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text JLCJLCJLCJLC (at 340.94853 65.565006) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text 3.6V (at 291.60417 75.381384) (layer F.SilkS) (tstamp 5D3A3A7F)
     (effects (font (size 1 1) (thickness 0.1)))
