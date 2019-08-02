@@ -1,4 +1,4 @@
-# DISCIPLINE /// Documents
+# DISCIPLINE
 
 ![discipline](./images/discipline-kicad.jpg)
 
