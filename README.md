@@ -6,4 +6,4 @@
 [Build Guide and Flashing Information](./doc)
 
 ![discipline](./doc/images/discipline.jpeg)
-![discipline-kicad](./doc/imagesdiscipline-kicad.jpg)
+![discipline-kicad](./doc/images/discipline-kicad.jpg)
