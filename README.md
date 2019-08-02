@@ -1,6 +1,8 @@
-# discipline
+# DISCIPLINE
  65% keyboard assembled with only through hole components, including usb type-c
 
-![discipline](./doc/images/discipline.jpeg)
+[BOM (Parts List)](https://octopart.com/bom-tool/W4rybyut)
+[Build Guide and Flashing Information](./doc)
 
-[BOM (parts list)](https://octopart.com/bom-tool/W4rybyut)
+![discipline](./doc/images/discipline.jpeg)
+![discipline-kicad](./doc/discipline-kicad.jpg)
