@@ -1,6 +1,6 @@
 # DISCIPLINE /// Docs
 
-![discipline](./doc/images/discipline-kicad.jpeg)
+![discipline](./images/discipline-kicad.jpg)
 
 [Build Guide]()
 
