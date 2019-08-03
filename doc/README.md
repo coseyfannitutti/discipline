@@ -2,11 +2,14 @@
 
 ![discipline](./images/discipline-kicad.jpg)
 
-[Build Guide]()
+[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d44d2c18560f6000131a89f/1564791492911/DISCIPLINE+BUILD+GUIDE.pdf)
 
 [QMK Flashing Guide]()
 
+[Bootloader](./bootloader)
+
 [BOM (Parts List)](https://octopart.com/bom-tool/W4rybyut)
+
 
 Please note digikey is currently out of stock for the usb connector on this project. They have told me they should be back in stock in on or around September 7.
 
