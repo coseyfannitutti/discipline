@@ -4,6 +4,8 @@
 
 [Build Guide]()
 
+[QMK Flashing Guide]()
+
 [BOM (Parts List)](https://octopart.com/bom-tool/W4rybyut)
 
 Please note digikey is currently out of stock for the usb connector on this project. They have told me they should be back in stock in on or around September 7.
