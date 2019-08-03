@@ -3,4 +3,6 @@
 
 [BOM, Build Guide, and Flashing Information](./doc)
 
+Kits coming soon at [cftkb.com](https://www.cftkb.com)
+
 ![discipline](./doc/images/discipline.jpeg)
