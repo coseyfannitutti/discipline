@@ -11,7 +11,7 @@
 [BOM (Parts List)](https://octopart.com/bom-tool/W4rybyut)
 
 
-Please note digikey is currently out of stock for the usb connector on this project. They have told me they should be back in stock in on or around September 7.
+Please note digikey is currently out of stock for the usb connector on this project. They have told me they should be back in stock on or around September 7.
 
 If you are in the UK you can buy USB4085 type-c connectors from https://uk.farnell.com/
 
