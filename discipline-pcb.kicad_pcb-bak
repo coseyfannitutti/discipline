@@ -4503,6 +4503,11 @@
     (pad 40 thru_hole oval (at 15.24 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 50 row3))
     (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-40_W15.24mm.wrl
+      (offset (xyz 0 0 3.9))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
