@@ -2,7 +2,7 @@
 
 ![discipline](./images/discipline-kicad.jpg)
 
-[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d44d2c18560f6000131a89f/1564791492911/DISCIPLINE+BUILD+GUIDE.pdf)
+[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d55c24994176300013d5a44/1565901389879/DISCIPLINE+BUILD+GUIDE.pdf)
 
 [QMK Flashing Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d4a69eaa40bff00012bb4a8/1565157867403/DISCIPLINE+FLASHING+GUIDE.pdf)
 
