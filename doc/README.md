@@ -1,6 +1,6 @@
 # DISCIPLINE
 
-![discipline](./images/discipline-kicad.jpg)
+![discipline](./images/discipline-kicad.png)
 
 [Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d55c24994176300013d5a44/1565901389879/DISCIPLINE+BUILD+GUIDE.pdf)
 

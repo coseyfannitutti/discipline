@@ -6,3 +6,6 @@
 Kits coming soon at [cftkb.com](https://www.cftkb.com)
 
 ![discipline](./doc/images/discipline.jpeg)
+![](./doc/images/discipline-kicad.png)
+![](./doc/images/discipline-top.png)
+![](./doc/images/discipline-bottom.png)
