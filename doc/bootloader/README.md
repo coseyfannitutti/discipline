@@ -16,8 +16,6 @@ https://github.com/coseyfannitutti/USBaspLoader/tree/discipline
   
   	```make fuse``` (sets fuses for microcontroller)
   
- 	```make lock``` (prevents bootloader from being overwritten)
-
 ## Enter bootloader mode
 1. Plug in USB cable
 2. Push and hold ```BOOT``` switch
