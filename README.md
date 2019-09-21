@@ -3,7 +3,7 @@
 
 [BOM, Build Guide, and Flashing Information](./doc)
 
-Kits coming soon at [cftkb.com](https://www.cftkb.com)
+Kits available at [cftkb.com](https://www.cftkb.com)
 
 ![discipline](./doc/images/discipline.jpeg)
 ![](./doc/images/discipline-kicad.png)
