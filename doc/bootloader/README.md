@@ -22,4 +22,5 @@ https://github.com/coseyfannitutti/USBaspLoader/tree/discipline
 3. Release ```BOOT``` switch
 
 Alternatively, you can hold ```BOOT``` switch while inserting the USB cable.
+
 If you have successfully entered bootloader mode you should see USBaspLoader in device manager or as a connected device in QMK Toolbox.
