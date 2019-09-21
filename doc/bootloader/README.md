@@ -17,10 +17,9 @@ https://github.com/coseyfannitutti/USBaspLoader/tree/discipline
   	```make fuse``` (sets fuses for microcontroller)
   
 ## Enter bootloader mode
-1. Plug in USB cable
-2. Push and hold ```BOOT``` switch
-3. Push and hold ```RESET``` switch
-4. Release ```RESET``` switch
-5. Release ```BOOT``` switch
+1. Press and hold ```BOOT``` switch
+2. Tap ```RESET``` switch
+3. Release ```BOOT``` switch
 
+Alternatively, you can hold ```BOOT``` switch while inserting the USB cable.
 If you have successfully entered bootloader mode you should see USBaspLoader in device manager or as a connected device in QMK Toolbox.
