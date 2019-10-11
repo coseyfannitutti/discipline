@@ -3001,7 +3001,7 @@ $Comp
 L MCU_Microchip_ATmega:ATmega32A-PU U1
 U 1 1 5DB0B277
 P 4000 8250
-F 0 "U1" H 3900 8350 50  0000 C CNN
+F 0 "U1" H 4000 6161 50  0000 C CNN
 F 1 "ATmega32A-PU" H 3925 8250 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 4000 8250 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 4000 8250 50  0001 C CNN
