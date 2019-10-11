@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:discipline-pcb-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -2170,7 +2170,7 @@ reset
 Text GLabel 5800 6900 2    50   Input ~ 0
 reset
 $Comp
-L MCU_Microchip_ATmega:ATmega32A-PU U1
+L discipline-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
 U 1 1 5D1828C7
 P 4000 8250
 F 0 "U1" H 3800 8400 50  0000 C CNN
@@ -2719,17 +2719,6 @@ Wire Wire Line
 	12650 2900 12650 5250
 Wire Wire Line
 	13350 2900 13350 5250
-$Comp
-L keyboard_parts:GND #PWR?
-U 1 1 5D3CA2AB
-P 5550 10300
-F 0 "#PWR?" H 5550 10350 20  0001 C CNN
-F 1 "GND" H 5550 10200 30  0000 C CNN
-F 2 "" H 5550 10300 60  0000 C CNN
-F 3 "" H 5550 10300 60  0000 C CNN
-	1    5550 10300
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3400 7150
 NoConn ~ 4600 7050
 NoConn ~ 4600 7150
@@ -2737,4 +2726,15 @@ NoConn ~ 4600 7250
 NoConn ~ 4600 9050
 NoConn ~ 4600 9250
 NoConn ~ 4600 9350
+$Comp
+L power:GND #PWR?
+U 1 1 5DA49277
+P 5550 10300
+F 0 "#PWR?" H 5550 10050 50  0001 C CNN
+F 1 "GND" H 5555 10127 50  0000 C CNN
+F 2 "" H 5550 10300 50  0001 C CNN
+F 3 "" H 5550 10300 50  0001 C CNN
+	1    5550 10300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
