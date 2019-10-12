@@ -2169,17 +2169,6 @@ Text GLabel 3400 6550 0    50   Input ~ 0
 reset
 Text GLabel 5800 6900 2    50   Input ~ 0
 reset
-$Comp
-L discipline-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
-U 1 1 5D1828C7
-P 4000 8250
-F 0 "U1" H 3800 8400 50  0000 C CNN
-F 1 "ATmega32A-PU" H 3850 8300 50  0000 C CNN
-F 2 "cftkb:DIP-40_W15.24mm" H 4000 8250 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 4000 8250 50  0001 C CNN
-	1    4000 8250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 6250 4100 6250
 $Comp
@@ -3009,4 +2998,16 @@ Connection ~ 9950 5250
 Wire Wire Line
 	10550 5900 10550 5250
 Connection ~ 10550 5250
+$Comp
+L MCU_Microchip_ATmega:ATmega32A-PU U1
+U 1 1 5DF0B623
+P 4000 8250
+F 0 "U1" H 3850 8350 50  0000 C CNN
+F 1 "ATmega32A-PU" H 3900 8250 50  0000 C CNN
+F 2 "cftkb:DIP-40_W15.24mm" H 4000 8250 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 4000 8250 50  0001 C CNN
+	1    4000 8250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 6250
 $EndSCHEMATC
