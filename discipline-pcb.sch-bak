@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:discipline-pcb-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -2170,7 +2170,7 @@ reset
 Text GLabel 5800 6900 2    50   Input ~ 0
 reset
 $Comp
-L MCU_Microchip_ATmega:ATmega32A-PU U1
+L discipline-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
 U 1 1 5D1828C7
 P 4000 8250
 F 0 "U1" H 3800 8400 50  0000 C CNN
@@ -2673,61 +2673,20 @@ U 1 1 5D525B77
 P 5400 6800
 F 0 "J1" H 5600 7350 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5800 7250 50  0000 R CNN
-F 2 "" V 5150 6850 50  0001 C CNN
+F 2 "cftkb:AVR_ICSP_3x2" V 5150 6850 50  0001 C CNN
 F 3 " ~" H 4125 6250 50  0001 C CNN
 	1    5400 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5D525CFA
 P 5300 7200
-F 0 "#PWR?" H 5300 6950 50  0001 C CNN
+F 0 "#PWR0106" H 5300 6950 50  0001 C CNN
 F 1 "GND" H 5305 7027 50  0000 C CNN
 F 2 "" H 5300 7200 50  0001 C CNN
 F 3 "" H 5300 7200 50  0001 C CNN
 	1    5300 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 2900 4250 5250
-Wire Wire Line
-	5650 2900 5650 4700
-Wire Wire Line
-	6350 2900 6350 4700
-Wire Wire Line
-	7050 2900 7050 4700
-Wire Wire Line
-	8450 2900 8450 4700
-Wire Wire Line
-	9150 2900 9150 4700
-Wire Wire Line
-	11950 2900 11950 5250
-Wire Wire Line
-	3550 2900 3550 5250
-Wire Wire Line
-	4950 2900 4950 5250
-Wire Wire Line
-	7750 2900 7750 5250
-Wire Wire Line
-	9850 2900 9850 5250
-Wire Wire Line
-	10550 2900 10550 5250
-Wire Wire Line
-	11250 2900 11250 5250
-Wire Wire Line
-	12650 2900 12650 5250
-Wire Wire Line
-	13350 2900 13350 5250
-$Comp
-L keyboard_parts:GND #PWR?
-U 1 1 5D3CA2AB
-P 5550 10300
-F 0 "#PWR?" H 5550 10350 20  0001 C CNN
-F 1 "GND" H 5550 10200 30  0000 C CNN
-F 2 "" H 5550 10300 60  0000 C CNN
-F 3 "" H 5550 10300 60  0000 C CNN
-	1    5550 10300
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3400 7150
@@ -2737,4 +2696,204 @@ NoConn ~ 4600 7250
 NoConn ~ 4600 9050
 NoConn ~ 4600 9250
 NoConn ~ 4600 9350
+$Comp
+L power:GND #PWR0112
+U 1 1 5DA49277
+P 5550 10300
+F 0 "#PWR0112" H 5550 10050 50  0001 C CNN
+F 1 "GND" H 5555 10127 50  0000 C CNN
+F 2 "" H 5550 10300 50  0001 C CNN
+F 3 "" H 5550 10300 50  0001 C CNN
+	1    5550 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2900 3550 2950
+Connection ~ 3550 2950
+Wire Wire Line
+	3550 2950 3550 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3550 4100
+Connection ~ 3550 4100
+Wire Wire Line
+	3550 4100 3550 4700
+Connection ~ 3550 4700
+Wire Wire Line
+	3550 4700 3550 5250
+Wire Wire Line
+	4250 2900 4250 2950
+Connection ~ 4250 2950
+Wire Wire Line
+	4250 2950 4250 3500
+Connection ~ 4250 3500
+Wire Wire Line
+	4250 3500 4250 4100
+Connection ~ 4250 4100
+Wire Wire Line
+	4250 4100 4250 5250
+Wire Wire Line
+	4950 2900 4950 2950
+Connection ~ 4950 2950
+Wire Wire Line
+	4950 2950 4950 3500
+Connection ~ 4950 3500
+Wire Wire Line
+	4950 3500 4950 4100
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 4100 4950 4700
+Connection ~ 4950 4700
+Wire Wire Line
+	4950 4700 4950 5250
+Wire Wire Line
+	5650 2900 5650 2950
+Connection ~ 5650 2950
+Wire Wire Line
+	5650 2950 5650 3500
+Connection ~ 5650 3500
+Wire Wire Line
+	5650 3500 5650 4100
+Connection ~ 5650 4100
+Wire Wire Line
+	5650 4100 5650 4700
+Wire Wire Line
+	6350 2900 6350 2950
+Connection ~ 6350 2950
+Wire Wire Line
+	6350 2950 6350 3500
+Connection ~ 6350 3500
+Wire Wire Line
+	6350 3500 6350 4100
+Connection ~ 6350 4100
+Wire Wire Line
+	6350 4100 6350 4700
+Wire Wire Line
+	7050 2900 7050 2950
+Connection ~ 7050 2950
+Wire Wire Line
+	7050 2950 7050 3500
+Connection ~ 7050 3500
+Wire Wire Line
+	7050 3500 7050 4100
+Connection ~ 7050 4100
+Wire Wire Line
+	7050 4100 7050 4700
+Wire Wire Line
+	7750 2900 7750 2950
+Connection ~ 7750 2950
+Wire Wire Line
+	7750 2950 7750 3500
+Connection ~ 7750 3500
+Wire Wire Line
+	7750 3500 7750 4100
+Connection ~ 7750 4100
+Wire Wire Line
+	7750 4100 7750 4700
+Connection ~ 7750 4700
+Wire Wire Line
+	7750 4700 7750 5250
+Wire Wire Line
+	8450 2900 8450 2950
+Connection ~ 8450 2950
+Wire Wire Line
+	8450 2950 8450 3500
+Connection ~ 8450 3500
+Wire Wire Line
+	8450 3500 8450 4100
+Connection ~ 8450 4100
+Wire Wire Line
+	8450 4100 8450 4700
+Wire Wire Line
+	9150 2900 9150 2950
+Connection ~ 9150 2950
+Wire Wire Line
+	9150 2950 9150 3500
+Connection ~ 9150 3500
+Wire Wire Line
+	9150 3500 9150 4100
+Connection ~ 9150 4100
+Wire Wire Line
+	9150 4100 9150 4700
+Wire Wire Line
+	9850 2900 9850 2950
+Connection ~ 9850 2950
+Wire Wire Line
+	9850 2950 9850 3500
+Connection ~ 9850 3500
+Wire Wire Line
+	9850 3500 9850 4100
+Connection ~ 9850 4100
+Wire Wire Line
+	9850 4100 9850 4700
+Connection ~ 9850 4700
+Wire Wire Line
+	9850 4700 9850 5250
+Wire Wire Line
+	10550 2900 10550 2950
+Connection ~ 10550 2950
+Wire Wire Line
+	10550 2950 10550 3500
+Connection ~ 10550 3500
+Wire Wire Line
+	10550 3500 10550 4100
+Connection ~ 10550 4100
+Wire Wire Line
+	10550 4100 10550 4700
+Connection ~ 10550 4700
+Wire Wire Line
+	10550 4700 10550 5250
+Wire Wire Line
+	11250 2900 11250 2950
+Connection ~ 11250 2950
+Wire Wire Line
+	11250 2950 11250 3500
+Connection ~ 11250 3500
+Wire Wire Line
+	11250 3500 11250 4100
+Connection ~ 11250 4100
+Wire Wire Line
+	11250 4100 11250 4700
+Connection ~ 11250 4700
+Wire Wire Line
+	11250 4700 11250 5250
+Wire Wire Line
+	11950 2900 11950 2950
+Connection ~ 11950 2950
+Wire Wire Line
+	11950 2950 11950 3500
+Connection ~ 11950 3500
+Wire Wire Line
+	11950 3500 11950 4700
+Connection ~ 11950 4700
+Wire Wire Line
+	11950 4700 11950 5250
+Wire Wire Line
+	12650 2900 12650 2950
+Connection ~ 12650 2950
+Wire Wire Line
+	12650 2950 12650 3500
+Connection ~ 12650 3500
+Wire Wire Line
+	12650 3500 12650 4100
+Connection ~ 12650 4100
+Wire Wire Line
+	12650 4100 12650 4700
+Connection ~ 12650 4700
+Wire Wire Line
+	12650 4700 12650 5250
+Wire Wire Line
+	13350 2900 13350 2950
+Connection ~ 13350 2950
+Wire Wire Line
+	13350 2950 13350 3500
+Connection ~ 13350 3500
+Wire Wire Line
+	13350 3500 13350 4100
+Connection ~ 13350 4100
+Wire Wire Line
+	13350 4100 13350 4700
+Connection ~ 13350 4700
+Wire Wire Line
+	13350 4700 13350 5250
 $EndSCHEMATC
