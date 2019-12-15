@@ -1,6 +1,5 @@
-EESchema Schematic File Version 4
-LIBS:discipline-pcb-cache
-EELAYER 26 0
+EESchema Schematic File Version 5
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -13,9 +12,14 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
-L keyboard_parts:KEYSW SW1
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW1
 U 1 1 5BDAA9A5
 P 3250 2950
 F 0 "SW1" H 3250 3183 60  0000 C CNN
@@ -41,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2950 2900 3000
 $Comp
-L keyboard_parts:KEYSW SW2
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW2
 U 1 1 5BDB3743
 P 3950 2950
 F 0 "SW2" H 3950 3183 60  0000 C CNN
@@ -67,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2950 3600 3000
 $Comp
-L keyboard_parts:KEYSW SW3
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW3
 U 1 1 5BDB4A41
 P 4650 2950
 F 0 "SW3" H 4650 3183 60  0000 C CNN
@@ -93,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2950 4300 3000
 $Comp
-L keyboard_parts:KEYSW SW4
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW4
 U 1 1 5BDB5E7B
 P 5350 2950
 F 0 "SW4" H 5350 3183 60  0000 C CNN
@@ -119,7 +123,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2950 5000 3000
 $Comp
-L keyboard_parts:KEYSW SW5
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW5
 U 1 1 5BDB746A
 P 6050 2950
 F 0 "SW5" H 6050 3183 60  0000 C CNN
@@ -145,7 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2950 5700 3000
 $Comp
-L keyboard_parts:KEYSW SW6
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW6
 U 1 1 5BDB8AF4
 P 6750 2950
 F 0 "SW6" H 6750 3183 60  0000 C CNN
@@ -171,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2950 6400 3000
 $Comp
-L keyboard_parts:KEYSW SW7
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW7
 U 1 1 5BDBA2A7
 P 7450 2950
 F 0 "SW7" H 7450 3183 60  0000 C CNN
@@ -197,7 +201,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2950 7100 3000
 $Comp
-L keyboard_parts:KEYSW SW8
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW8
 U 1 1 5BDC4F87
 P 8150 2950
 F 0 "SW8" H 8150 3183 60  0000 C CNN
@@ -223,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2950 7800 3000
 $Comp
-L keyboard_parts:KEYSW SW9
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW9
 U 1 1 5BDC6958
 P 8850 2950
 F 0 "SW9" H 8850 3183 60  0000 C CNN
@@ -249,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2950 8500 3000
 $Comp
-L keyboard_parts:KEYSW SW10
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW10
 U 1 1 5BDC8400
 P 9550 2950
 F 0 "SW10" H 9550 3183 60  0000 C CNN
@@ -275,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 2950 9200 3000
 $Comp
-L keyboard_parts:KEYSW SW11
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW11
 U 1 1 5BDC9FAD
 P 10250 2950
 F 0 "SW11" H 10250 3183 60  0000 C CNN
@@ -301,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 2950 9900 3000
 $Comp
-L keyboard_parts:KEYSW SW12
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW12
 U 1 1 5BDCBC8D
 P 10950 2950
 F 0 "SW12" H 10950 3183 60  0000 C CNN
@@ -327,7 +331,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 2950 10600 3000
 $Comp
-L keyboard_parts:KEYSW SW13
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW13
 U 1 1 5BDCDA46
 P 11650 2950
 F 0 "SW13" H 11650 3183 60  0000 C CNN
@@ -353,7 +357,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 2950 11300 3000
 $Comp
-L keyboard_parts:KEYSW SW14
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW14
 U 1 1 5BDCF8D2
 P 12350 2950
 F 0 "SW14" H 12350 3183 60  0000 C CNN
@@ -379,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 2950 12000 3000
 $Comp
-L keyboard_parts:KEYSW SW15
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW15
 U 1 1 5BDD186B
 P 13050 2950
 F 0 "SW15" H 13050 3183 60  0000 C CNN
@@ -405,7 +409,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 2950 12700 3000
 $Comp
-L keyboard_parts:KEYSW SW16
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW16
 U 1 1 5BDD4A79
 P 3250 3500
 F 0 "SW16" H 3250 3733 60  0000 C CNN
@@ -431,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3500 2900 3550
 $Comp
-L keyboard_parts:KEYSW SW17
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW17
 U 1 1 5BDD4A89
 P 3950 3500
 F 0 "SW17" H 3950 3733 60  0000 C CNN
@@ -457,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3500 3600 3550
 $Comp
-L keyboard_parts:KEYSW SW18
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW18
 U 1 1 5BDD4A99
 P 4650 3500
 F 0 "SW18" H 4650 3733 60  0000 C CNN
@@ -483,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3500 4300 3550
 $Comp
-L keyboard_parts:KEYSW SW19
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW19
 U 1 1 5BDD4AA9
 P 5350 3500
 F 0 "SW19" H 5350 3733 60  0000 C CNN
@@ -509,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3500 5000 3550
 $Comp
-L keyboard_parts:KEYSW SW20
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW20
 U 1 1 5BDD4AB9
 P 6050 3500
 F 0 "SW20" H 6050 3733 60  0000 C CNN
@@ -535,7 +539,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3500 5700 3550
 $Comp
-L keyboard_parts:KEYSW SW21
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW21
 U 1 1 5BDD4AC9
 P 6750 3500
 F 0 "SW21" H 6750 3733 60  0000 C CNN
@@ -561,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3500 6400 3550
 $Comp
-L keyboard_parts:KEYSW SW22
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW22
 U 1 1 5BDD4AD9
 P 7450 3500
 F 0 "SW22" H 7450 3733 60  0000 C CNN
@@ -587,7 +591,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3500 7100 3550
 $Comp
-L keyboard_parts:KEYSW SW23
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW23
 U 1 1 5BDD4AE9
 P 8150 3500
 F 0 "SW23" H 8150 3733 60  0000 C CNN
@@ -613,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7800 3550
 $Comp
-L keyboard_parts:KEYSW SW24
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW24
 U 1 1 5BDD4AF9
 P 8850 3500
 F 0 "SW24" H 8850 3733 60  0000 C CNN
@@ -639,7 +643,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3500 8500 3550
 $Comp
-L keyboard_parts:KEYSW SW25
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW25
 U 1 1 5BDD4B09
 P 9550 3500
 F 0 "SW25" H 9550 3733 60  0000 C CNN
@@ -665,7 +669,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3500 9200 3550
 $Comp
-L keyboard_parts:KEYSW SW26
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW26
 U 1 1 5BDD4B19
 P 10250 3500
 F 0 "SW26" H 10250 3733 60  0000 C CNN
@@ -691,7 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 3500 9900 3550
 $Comp
-L keyboard_parts:KEYSW SW27
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW27
 U 1 1 5BDD4B29
 P 10950 3500
 F 0 "SW27" H 10950 3733 60  0000 C CNN
@@ -717,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3500 10600 3550
 $Comp
-L keyboard_parts:KEYSW SW28
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW28
 U 1 1 5BDD4B39
 P 11650 3500
 F 0 "SW28" H 11650 3733 60  0000 C CNN
@@ -743,7 +747,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 3500 11300 3550
 $Comp
-L keyboard_parts:KEYSW SW29
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW29
 U 1 1 5BDD4B49
 P 12350 3500
 F 0 "SW29" H 12350 3733 60  0000 C CNN
@@ -769,7 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 3500 12000 3550
 $Comp
-L keyboard_parts:KEYSW SW30
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW30
 U 1 1 5BDD4B59
 P 13050 3500
 F 0 "SW30" H 13050 3733 60  0000 C CNN
@@ -795,7 +799,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 3500 12700 3550
 $Comp
-L keyboard_parts:KEYSW SW31
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW31
 U 1 1 5BE2E393
 P 3250 4100
 F 0 "SW31" H 3250 4333 60  0000 C CNN
@@ -821,7 +825,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4100 2900 4150
 $Comp
-L keyboard_parts:KEYSW SW32
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW32
 U 1 1 5BE2E3A3
 P 3950 4100
 F 0 "SW32" H 3950 4333 60  0000 C CNN
@@ -847,7 +851,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4100 3600 4150
 $Comp
-L keyboard_parts:KEYSW SW33
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW33
 U 1 1 5BE2E3B3
 P 4650 4100
 F 0 "SW33" H 4650 4333 60  0000 C CNN
@@ -873,7 +877,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4100 4300 4150
 $Comp
-L keyboard_parts:KEYSW SW34
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW34
 U 1 1 5BE2E3C3
 P 5350 4100
 F 0 "SW34" H 5350 4333 60  0000 C CNN
@@ -899,7 +903,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4100 5000 4150
 $Comp
-L keyboard_parts:KEYSW SW35
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW35
 U 1 1 5BE2E3D3
 P 6050 4100
 F 0 "SW35" H 6050 4333 60  0000 C CNN
@@ -925,7 +929,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4100 5700 4150
 $Comp
-L keyboard_parts:KEYSW SW36
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW36
 U 1 1 5BE2E3E3
 P 6750 4100
 F 0 "SW36" H 6750 4333 60  0000 C CNN
@@ -951,7 +955,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4100 6400 4150
 $Comp
-L keyboard_parts:KEYSW SW37
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW37
 U 1 1 5BE2E3F3
 P 7450 4100
 F 0 "SW37" H 7450 4333 60  0000 C CNN
@@ -977,7 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4100 7100 4150
 $Comp
-L keyboard_parts:KEYSW SW38
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW38
 U 1 1 5BE2E403
 P 8150 4100
 F 0 "SW38" H 8150 4333 60  0000 C CNN
@@ -1003,7 +1007,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 4100 7800 4150
 $Comp
-L keyboard_parts:KEYSW SW39
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW39
 U 1 1 5BE2E413
 P 8850 4100
 F 0 "SW39" H 8850 4333 60  0000 C CNN
@@ -1029,7 +1033,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4100 8500 4150
 $Comp
-L keyboard_parts:KEYSW SW40
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW40
 U 1 1 5BE2E423
 P 9550 4100
 F 0 "SW40" H 9550 4333 60  0000 C CNN
@@ -1055,7 +1059,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 4100 9200 4150
 $Comp
-L keyboard_parts:KEYSW SW41
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW41
 U 1 1 5BE2E433
 P 10250 4100
 F 0 "SW41" H 10250 4333 60  0000 C CNN
@@ -1081,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 4100 9900 4150
 $Comp
-L keyboard_parts:KEYSW SW42
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW42
 U 1 1 5BE2E443
 P 10950 4100
 F 0 "SW42" H 10950 4333 60  0000 C CNN
@@ -1107,7 +1111,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 4100 10600 4150
 $Comp
-L keyboard_parts:KEYSW SW43
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW43
 U 1 1 5BE2E453
 P 12350 4100
 F 0 "SW43" H 12350 4333 60  0000 C CNN
@@ -1133,7 +1137,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 4100 12000 4150
 $Comp
-L keyboard_parts:KEYSW SW44
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW44
 U 1 1 5BE2E463
 P 13050 4100
 F 0 "SW44" H 13050 4333 60  0000 C CNN
@@ -1159,7 +1163,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 4100 12700 4150
 $Comp
-L keyboard_parts:KEYSW SW45
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW45
 U 1 1 5BE34833
 P 3250 4700
 F 0 "SW45" H 3250 4933 60  0000 C CNN
@@ -1185,7 +1189,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4700 2900 4750
 $Comp
-L keyboard_parts:KEYSW SW46
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW46
 U 1 1 5BE34843
 P 4650 4700
 F 0 "SW46" H 4650 4933 60  0000 C CNN
@@ -1211,7 +1215,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4700 4300 4750
 $Comp
-L keyboard_parts:KEYSW SW47
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW47
 U 1 1 5BE34853
 P 5350 4700
 F 0 "SW47" H 5350 4933 60  0000 C CNN
@@ -1237,7 +1241,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4700 5000 4750
 $Comp
-L keyboard_parts:KEYSW SW48
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW48
 U 1 1 5BE34863
 P 6050 4700
 F 0 "SW48" H 6050 4933 60  0000 C CNN
@@ -1263,7 +1267,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4700 5700 4750
 $Comp
-L keyboard_parts:KEYSW SW49
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW49
 U 1 1 5BE34873
 P 6750 4700
 F 0 "SW49" H 6750 4933 60  0000 C CNN
@@ -1289,7 +1293,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4700 6400 4750
 $Comp
-L keyboard_parts:KEYSW SW50
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW50
 U 1 1 5BE34883
 P 7450 4700
 F 0 "SW50" H 7450 4933 60  0000 C CNN
@@ -1315,7 +1319,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4700 7100 4750
 $Comp
-L keyboard_parts:KEYSW SW51
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW51
 U 1 1 5BE34893
 P 8150 4700
 F 0 "SW51" H 8150 4933 60  0000 C CNN
@@ -1341,7 +1345,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 4700 7800 4750
 $Comp
-L keyboard_parts:KEYSW SW52
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW52
 U 1 1 5BE348A3
 P 8850 4700
 F 0 "SW52" H 8850 4933 60  0000 C CNN
@@ -1367,7 +1371,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4700 8500 4750
 $Comp
-L keyboard_parts:KEYSW SW53
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW53
 U 1 1 5BE348B3
 P 9550 4700
 F 0 "SW53" H 9550 4933 60  0000 C CNN
@@ -1393,7 +1397,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 4700 9200 4750
 $Comp
-L keyboard_parts:KEYSW SW54
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW54
 U 1 1 5BE348C3
 P 10250 4700
 F 0 "SW54" H 10250 4933 60  0000 C CNN
@@ -1419,7 +1423,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 4700 9900 4750
 $Comp
-L keyboard_parts:KEYSW SW55
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW55
 U 1 1 5BE348D3
 P 10950 4700
 F 0 "SW55" H 10950 4933 60  0000 C CNN
@@ -1445,7 +1449,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 4700 10600 4750
 $Comp
-L keyboard_parts:KEYSW SW56
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW56
 U 1 1 5BE348E3
 P 11650 4700
 F 0 "SW56" H 11650 4933 60  0000 C CNN
@@ -1471,7 +1475,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 4700 11300 4750
 $Comp
-L keyboard_parts:KEYSW SW57
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW57
 U 1 1 5BE348F3
 P 12350 4700
 F 0 "SW57" H 12350 4933 60  0000 C CNN
@@ -1497,7 +1501,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 4700 12000 4750
 $Comp
-L keyboard_parts:KEYSW SW58
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW58
 U 1 1 5BE34903
 P 13050 4700
 F 0 "SW58" H 13050 4933 60  0000 C CNN
@@ -1523,7 +1527,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 4700 12700 4750
 $Comp
-L keyboard_parts:KEYSW SW59
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW59
 U 1 1 5BE64C5B
 P 3250 5250
 F 0 "SW59" H 3250 5483 60  0000 C CNN
@@ -1547,7 +1551,7 @@ $EndComp
 Wire Wire Line
 	2950 5250 2900 5250
 $Comp
-L keyboard_parts:KEYSW SW60
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW60
 U 1 1 5BE64C6A
 P 3950 5250
 F 0 "SW60" H 3950 5483 60  0000 C CNN
@@ -1573,7 +1577,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5250 3600 5300
 $Comp
-L keyboard_parts:KEYSW SW61
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW61
 U 1 1 5BE64C7A
 P 4650 5250
 F 0 "SW61" H 4650 5483 60  0000 C CNN
@@ -1599,7 +1603,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 5250 4300 5300
 $Comp
-L keyboard_parts:KEYSW SW62
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW62
 U 1 1 5BE7F31E
 P 7450 5250
 F 0 "SW62" H 7450 5483 60  0000 C CNN
@@ -1625,7 +1629,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5250 7100 5300
 $Comp
-L keyboard_parts:KEYSW SW63
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW63
 U 1 1 5BE881B1
 P 9550 5250
 F 0 "SW63" H 9550 5483 60  0000 C CNN
@@ -1651,7 +1655,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 5250 9200 5300
 $Comp
-L keyboard_parts:KEYSW SW64
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW64
 U 1 1 5BE881C1
 P 10250 5250
 F 0 "SW64" H 10250 5483 60  0000 C CNN
@@ -1677,7 +1681,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 5250 9900 5300
 $Comp
-L keyboard_parts:KEYSW SW65
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW65
 U 1 1 5BE881D1
 P 11650 5250
 F 0 "SW65" H 11650 5483 60  0000 C CNN
@@ -1703,7 +1707,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 5250 11300 5300
 $Comp
-L keyboard_parts:KEYSW SW66
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW66
 U 1 1 5BE881E1
 P 12350 5250
 F 0 "SW66" H 12350 5483 60  0000 C CNN
@@ -1729,7 +1733,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 5250 12000 5300
 $Comp
-L keyboard_parts:KEYSW SW67
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW67
 U 1 1 5BE881F1
 P 13050 5250
 F 0 "SW67" H 13050 5483 60  0000 C CNN
@@ -2033,7 +2037,7 @@ Text Notes 13000 11050 0    50   ~ 0
 Text Notes 12250 10900 0    50   ~ 0
 DISCIPLINE
 $Comp
-L keyboard_parts:KEYSW SW68
+L discipline-pcb-rescue:KEYSW-keyboard_parts SW68
 U 1 1 5D067388
 P 10950 5250
 F 0 "SW68" H 10950 5483 60  0000 C CNN
@@ -2071,88 +2075,6 @@ Wire Wire Line
 	10600 5600 11300 5600
 Connection ~ 10600 5600
 Connection ~ 11300 5600
-Wire Wire Line
-	7500 6750 7650 6750
-Wire Wire Line
-	7800 6750 7800 7650
-Wire Wire Line
-	7800 7650 7500 7650
-NoConn ~ 7500 6850
-NoConn ~ 7500 7450
-Wire Wire Line
-	7500 7150 7900 7150
-Wire Wire Line
-	7900 7150 7900 7350
-Wire Wire Line
-	7900 7350 7500 7350
-Wire Wire Line
-	7500 7050 7900 7050
-Wire Wire Line
-	8000 7050 8000 7250
-Wire Wire Line
-	8000 7250 7500 7250
-$Comp
-L Device:R_Small R1
-U 1 1 5D059885
-P 8100 6950
-F 0 "R1" V 8000 6950 50  0000 C CNN
-F 1 "5.1k" V 8100 6950 39  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8100 6950 50  0001 C CNN
-F 3 "~" H 8100 6950 50  0001 C CNN
-	1    8100 6950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5D059DB7
-P 8100 7550
-F 0 "R2" V 8200 7550 50  0000 C CNN
-F 1 "5.1k" V 8100 7550 39  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 8100 7550 50  0001 C CNN
-F 3 "~" H 8100 7550 50  0001 C CNN
-	1    8100 7550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7500 6950 8000 6950
-Wire Wire Line
-	7500 7550 8000 7550
-Wire Wire Line
-	8200 6950 8200 7550
-Connection ~ 8200 6950
-Connection ~ 8200 7550
-$Comp
-L Type-C:USB_C_GCT_USB4085 USB1
-U 1 1 5D127DE0
-P 7400 7200
-F 0 "USB1" H 7231 8237 60  0000 C CNN
-F 1 "USB_C_GCT_USB4085" H 7231 8131 60  0000 C CNN
-F 2 "Type-C:USB_C_GCT_USB4085" H 7400 7200 60  0001 C CNN
-F 3 "" H 7400 7200 60  0001 C CNN
-	1    7400 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 6650 7500 6750
-Connection ~ 7500 6750
-Wire Wire Line
-	7500 6550 7500 6450
-Wire Wire Line
-	7500 6450 8200 6450
-Wire Wire Line
-	8200 6450 8200 6950
-Connection ~ 7500 6450
-Wire Wire Line
-	7500 7750 7500 7650
-Connection ~ 7500 7650
-Wire Wire Line
-	7500 7850 7500 7950
-Connection ~ 7500 7950
-Wire Wire Line
-	7500 7950 7500 8050
-Wire Wire Line
-	7500 8050 8200 8050
-Connection ~ 7500 8050
 $Comp
 L power:GND #PWR0102
 U 1 1 5D1E1072
@@ -2164,13 +2086,12 @@ F 3 "" H 8200 8050 50  0001 C CNN
 	1    8200 8050
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 8050
 Text GLabel 3400 6550 0    50   Input ~ 0
 reset
 Text GLabel 5800 6900 2    50   Input ~ 0
 reset
 $Comp
-L MCU_Microchip_ATmega:ATmega32A-PU U1
+L discipline-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
 U 1 1 5D1828C7
 P 4000 8250
 F 0 "U1" H 3800 8400 50  0000 C CNN
@@ -2208,8 +2129,6 @@ Text GLabel 4600 9450 2    50   Input ~ 0
 D+
 Text GLabel 4600 9550 2    50   Input ~ 0
 D-
-Wire Wire Line
-	8200 7550 8200 8050
 $Comp
 L Device:R_Small R3
 U 1 1 5D1C25EC
@@ -2232,8 +2151,6 @@ F 3 "~" H 8550 7150 50  0001 C CNN
 	1    8550 7150
 	0    1    1    0   
 $EndComp
-Connection ~ 8000 7050
-Connection ~ 7900 7150
 Text GLabel 8650 7050 2    50   Input ~ 0
 D-
 Text GLabel 8650 7150 2    50   Input ~ 0
@@ -2328,10 +2245,6 @@ F 3 "~" V 8400 7400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7900 7150 8400 7150
-Wire Wire Line
-	8000 7050 8300 7050
-Wire Wire Line
 	8400 7150 8400 7300
 Connection ~ 8400 7150
 Wire Wire Line
@@ -2369,8 +2282,6 @@ $EndComp
 Wire Wire Line
 	7900 7050 7900 6850
 Connection ~ 7900 7050
-Wire Wire Line
-	7900 7050 8000 7050
 $Comp
 L power:+5V #PWR0109
 U 1 1 5D2D4A6B
@@ -2411,7 +2322,6 @@ F 3 "~" H 7800 6300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 6750 7800 6400
-Connection ~ 7800 6750
 $Comp
 L power:+5V #PWR0110
 U 1 1 5D31262D
@@ -2493,7 +2403,7 @@ F 3 "" H 5300 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH RESET1
+L discipline-pcb-rescue:SW_PUSH-keyboard_parts RESET1
 U 1 1 5D18D9C7
 P 5550 8300
 F 0 "RESET1" H 5550 8555 50  0000 C CNN
@@ -2640,7 +2550,7 @@ Wire Wire Line
 	6000 8300 5850 8300
 Connection ~ 6000 8300
 $Comp
-L keyboard_parts:SW_PUSH BOOT1
+L discipline-pcb-rescue:SW_PUSH-keyboard_parts BOOT1
 U 1 1 5D1B3FAF
 P 5550 7700
 F 0 "BOOT1" H 5550 7955 50  0000 C CNN
@@ -2668,7 +2578,7 @@ boot
 Text Notes 15500 11050 2    50   ~ 0
 1
 $Comp
-L Connector:AVR-ISP-6 J1
+L discipline-pcb-rescue:AVR-ISP-6-Connector J1
 U 1 1 5D525B77
 P 5400 6800
 F 0 "J1" H 5600 7350 50  0000 R CNN
@@ -2679,10 +2589,10 @@ F 3 " ~" H 4125 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5D525CFA
 P 5300 7200
-F 0 "#PWR?" H 5300 6950 50  0001 C CNN
+F 0 "#PWR0106" H 5300 6950 50  0001 C CNN
 F 1 "GND" H 5305 7027 50  0000 C CNN
 F 2 "" H 5300 7200 50  0001 C CNN
 F 3 "" H 5300 7200 50  0001 C CNN
@@ -2690,40 +2600,40 @@ F 3 "" H 5300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 2900 4250 5250
+	4250 2900 4250 2950
 Wire Wire Line
-	5650 2900 5650 4700
+	5650 2900 5650 2950
 Wire Wire Line
-	6350 2900 6350 4700
+	6350 2900 6350 2950
 Wire Wire Line
-	7050 2900 7050 4700
+	7050 2900 7050 2950
 Wire Wire Line
-	8450 2900 8450 4700
+	8450 2900 8450 2950
 Wire Wire Line
-	9150 2900 9150 4700
+	9150 2900 9150 2950
 Wire Wire Line
-	11950 2900 11950 5250
+	11950 2900 11950 2950
 Wire Wire Line
-	3550 2900 3550 5250
+	3550 2900 3550 2950
 Wire Wire Line
-	4950 2900 4950 5250
+	4950 2900 4950 2950
 Wire Wire Line
-	7750 2900 7750 5250
+	7750 2900 7750 2950
 Wire Wire Line
-	9850 2900 9850 5250
+	9850 2900 9850 2950
 Wire Wire Line
-	10550 2900 10550 5250
+	10550 2900 10550 2950
 Wire Wire Line
-	11250 2900 11250 5250
+	11250 2900 11250 2950
 Wire Wire Line
-	12650 2900 12650 5250
+	12650 2900 12650 2950
 Wire Wire Line
-	13350 2900 13350 5250
+	13350 2900 13350 2950
 $Comp
-L keyboard_parts:GND #PWR?
+L discipline-pcb-rescue:GND-keyboard_parts #PWR0112
 U 1 1 5D3CA2AB
 P 5550 10300
-F 0 "#PWR?" H 5550 10350 20  0001 C CNN
+F 0 "#PWR0112" H 5550 10350 20  0001 C CNN
 F 1 "GND" H 5550 10200 30  0000 C CNN
 F 2 "" H 5550 10300 60  0000 C CNN
 F 3 "" H 5550 10300 60  0000 C CNN
@@ -2737,4 +2647,201 @@ NoConn ~ 4600 7250
 NoConn ~ 4600 9050
 NoConn ~ 4600 9250
 NoConn ~ 4600 9350
+Connection ~ 3550 2950
+Wire Wire Line
+	3550 2950 3550 3500
+Connection ~ 4250 2950
+Wire Wire Line
+	4250 2950 4250 3500
+Connection ~ 4950 2950
+Wire Wire Line
+	4950 2950 4950 3500
+Connection ~ 5650 2950
+Wire Wire Line
+	5650 2950 5650 3500
+Connection ~ 6350 2950
+Wire Wire Line
+	6350 2950 6350 3500
+Connection ~ 7050 2950
+Wire Wire Line
+	7050 2950 7050 3500
+Connection ~ 7750 2950
+Wire Wire Line
+	7750 2950 7750 3500
+Connection ~ 8450 2950
+Wire Wire Line
+	8450 2950 8450 3500
+Connection ~ 9150 2950
+Wire Wire Line
+	9150 2950 9150 3500
+Connection ~ 9850 2950
+Wire Wire Line
+	9850 2950 9850 3500
+Connection ~ 10550 2950
+Wire Wire Line
+	10550 2950 10550 3500
+Connection ~ 11250 2950
+Wire Wire Line
+	11250 2950 11250 3500
+Connection ~ 11950 2950
+Wire Wire Line
+	11950 2950 11950 3500
+Connection ~ 12650 2950
+Wire Wire Line
+	12650 2950 12650 3500
+Connection ~ 13350 2950
+Wire Wire Line
+	13350 2950 13350 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3550 4100
+Connection ~ 4250 3500
+Wire Wire Line
+	4250 3500 4250 4100
+Connection ~ 4950 3500
+Wire Wire Line
+	4950 3500 4950 4100
+Connection ~ 5650 3500
+Wire Wire Line
+	5650 3500 5650 4100
+Connection ~ 6350 3500
+Wire Wire Line
+	6350 3500 6350 4100
+Connection ~ 7050 3500
+Wire Wire Line
+	7050 3500 7050 4100
+Connection ~ 7750 3500
+Wire Wire Line
+	7750 3500 7750 4100
+Connection ~ 8450 3500
+Wire Wire Line
+	8450 3500 8450 4100
+Connection ~ 9150 3500
+Wire Wire Line
+	9150 3500 9150 4100
+Connection ~ 9850 3500
+Wire Wire Line
+	9850 3500 9850 4100
+Connection ~ 10550 3500
+Wire Wire Line
+	10550 3500 10550 4100
+Connection ~ 11250 3500
+Wire Wire Line
+	11250 3500 11250 4100
+Connection ~ 11950 3500
+Wire Wire Line
+	11950 3500 11950 4700
+Connection ~ 12650 3500
+Wire Wire Line
+	12650 3500 12650 4100
+Connection ~ 13350 3500
+Wire Wire Line
+	13350 3500 13350 4100
+Connection ~ 3550 4100
+Wire Wire Line
+	3550 4100 3550 4700
+Connection ~ 4250 4100
+Wire Wire Line
+	4250 4100 4250 5250
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 4100 4950 4700
+Connection ~ 5650 4100
+Wire Wire Line
+	5650 4100 5650 4700
+Connection ~ 6350 4100
+Wire Wire Line
+	6350 4100 6350 4700
+Connection ~ 7050 4100
+Wire Wire Line
+	7050 4100 7050 4700
+Connection ~ 7750 4100
+Wire Wire Line
+	7750 4100 7750 4700
+Connection ~ 8450 4100
+Wire Wire Line
+	8450 4100 8450 4700
+Connection ~ 9150 4100
+Wire Wire Line
+	9150 4100 9150 4700
+Connection ~ 9850 4100
+Wire Wire Line
+	9850 4100 9850 4700
+Connection ~ 10550 4100
+Wire Wire Line
+	10550 4100 10550 4700
+Connection ~ 11250 4100
+Wire Wire Line
+	11250 4100 11250 4700
+Connection ~ 12650 4100
+Wire Wire Line
+	12650 4100 12650 4700
+Connection ~ 13350 4100
+Wire Wire Line
+	13350 4100 13350 4700
+Connection ~ 3550 4700
+Wire Wire Line
+	3550 4700 3550 5250
+Connection ~ 4950 4700
+Wire Wire Line
+	4950 4700 4950 5250
+Connection ~ 7750 4700
+Wire Wire Line
+	7750 4700 7750 5250
+Connection ~ 9850 4700
+Wire Wire Line
+	9850 4700 9850 5250
+Connection ~ 10550 4700
+Wire Wire Line
+	10550 4700 10550 5250
+Connection ~ 11250 4700
+Wire Wire Line
+	11250 4700 11250 5250
+Connection ~ 11950 4700
+Wire Wire Line
+	11950 4700 11950 5250
+Connection ~ 12650 4700
+Wire Wire Line
+	12650 4700 12650 5250
+Connection ~ 13350 4700
+Wire Wire Line
+	13350 4700 13350 5250
+Connection ~ 4100 6250
+$Comp
+L Connector:USB_B_Mini J-USB-1
+U 1 1 5DC253C0
+P 6550 7250
+F 0 "J-USB-1" H 6607 7717 50  0000 C CNN
+F 1 "USB_B_Mini" H 6607 7626 50  0000 C CNN
+F 2 "Projects:USB_MINIB_Akizuki_MUSB-5BF01AS" H 6700 7200 50  0001 C CNN
+F 3 "~" H 6700 7200 50  0001 C CNN
+	1    6550 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 7650 6500 7650
+Wire Wire Line
+	6500 7650 6500 8050
+Connection ~ 6500 7650
+Wire Wire Line
+	6500 7650 6550 7650
+Wire Wire Line
+	6850 7350 6900 7350
+Wire Wire Line
+	6900 7350 6900 7050
+Wire Wire Line
+	6850 7250 6850 7150
+Wire Wire Line
+	6850 7050 6850 6750
+Wire Wire Line
+	7900 7050 8300 7050
+Wire Wire Line
+	6850 7150 8400 7150
+Wire Wire Line
+	6900 7050 7900 7050
+Wire Wire Line
+	6850 6750 7650 6750
+Wire Wire Line
+	6500 8050 8200 8050
+NoConn ~ 6850 7450
 $EndSCHEMATC
