@@ -5,6 +5,8 @@
 
 Kits available at [cftkb.com](https://www.cftkb.com)
 
+**[Optional High Profile Lasercut Acrylic Case](./case)**
+
 ![discipline](./doc/images/discipline.jpeg)
 ![](./doc/images/discipline-kicad.png)
 ![](./doc/images/discipline-top.png)
