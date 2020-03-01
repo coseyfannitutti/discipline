@@ -10,9 +10,7 @@ https://github.com/coseyfannitutti/USBaspLoader/tree/atmega32a
   - Makefile.inc sets flashing device as usbtiny, as I use a sparkfun pocket avr programmer. If you need to use another programmer please edit line 41 of Makefile.inc accordingly. Only edit Makefile.inc, and NEVER directly edit the actual Makefile.
   - Commands for flashing once build environment is set up:
   
-  	```make``` (compiles makefile)
-  
-  	```make flash``` (flashes makefile)
+	```make flash``` (flashes makefile)
   
   	```make fuse``` (sets fuses for microcontroller)
   
