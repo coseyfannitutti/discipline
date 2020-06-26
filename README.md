@@ -4,7 +4,7 @@
 
 **[LICENSE](LICENSE)**
 
-Discipline V2 is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (https://creativecommons.org/licenses/by-nc/4.0/).
+Discipline V2 is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). ![cc-by-nc](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
 
 This design as it stands in this repository may be freely reproduced, modified, and manufactured for PERSONAL USE ONLY and may not be reproduced in physical form for public sale outside of [CFTKB.com](https://www.cftkb.com). 
 
