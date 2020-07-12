@@ -2227,29 +2227,6 @@ D-
 Text GLabel 7425 7675 2    50   Input ~ 0
 D+
 $Comp
-L Device:Crystal Y1
-U 1 1 5D1F9BED
-P 2975 7300
-F 0 "Y1" V 2929 7431 50  0000 L CNN
-F 1 "Crystal" V 3020 7431 50  0000 L CNN
-F 2 "cftkb:Crystal_HC49-4H_Vertical" H 2975 7300 50  0001 C CNN
-F 3 "~" H 2975 7300 50  0001 C CNN
-	1    2975 7300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2975 7150 3225 7150
-Wire Wire Line
-	3225 7150 3225 7200
-Wire Wire Line
-	3225 7200 3375 7200
-Wire Wire Line
-	2975 7450 3225 7450
-Wire Wire Line
-	3225 7450 3225 7400
-Wire Wire Line
-	3225 7400 3375 7400
-$Comp
 L Device:C_Small C2
 U 1 1 5D22BD08
 P 2975 7650
@@ -2271,14 +2248,6 @@ F 3 "~" H 2825 7650 50  0001 C CNN
 	1    2825 7650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2975 7450 2975 7550
-Connection ~ 2975 7450
-Wire Wire Line
-	2975 7150 2825 7150
-Wire Wire Line
-	2825 7150 2825 7550
-Connection ~ 2975 7150
 Wire Wire Line
 	2825 7750 2975 7750
 $Comp
@@ -3113,4 +3082,27 @@ F 3 " ~" H 7250 6750 50  0001 C CNN
 	1    8525 7300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5F0E7676
+P 2975 7300
+F 0 "Y1" V 2929 7388 50  0000 L CNN
+F 1 "Crystal" V 3020 7388 50  0000 L CNN
+F 2 "cftkb:Crystal_HC49-4H_Vertical" H 2975 7300 50  0001 C CNN
+F 3 "~" H 2975 7300 50  0001 C CNN
+	1    2975 7300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3375 7200 2975 7200
+Wire Wire Line
+	3375 7400 2975 7400
+Wire Wire Line
+	2975 7400 2975 7550
+Connection ~ 2975 7400
+Wire Wire Line
+	2975 7200 2825 7200
+Wire Wire Line
+	2825 7200 2825 7550
+Connection ~ 2975 7200
 $EndSCHEMATC
