@@ -14,7 +14,7 @@ If you have built upon this work and have changed the design in a significant wa
 
 **Kits available at [cftkb.com](https://www.cftkb.com)**
 
-**[Optional High Profile Lasercut Acrylic Case](./case)**
+**[Optional High Profile Lasercut Acrylic Case](./acrylic-case)**
 
 ![discipline](./doc/images/discipline.jpeg)
 ![](./doc/images/discipline-black.jpeg)
