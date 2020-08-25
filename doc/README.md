@@ -2,7 +2,7 @@
 
 ![discipline](./images/discipline-kicad.png)
 
-[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e9fbf9e58f1fb0b01f71a7c/1587527585202/DISCIPLINE+BUILD+GUIDE.pdf)
+[Build Guide](https://www.cftkb.com/s/DISCIPLINE-BUILD-GUIDE.pdf)
 
 [VIA Configurator Guide (Easiest)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e9fd1d198a4166c9ccc5b68/1587532241535/DISCIPLINE+VIA+GUIDE.pdf)
 
