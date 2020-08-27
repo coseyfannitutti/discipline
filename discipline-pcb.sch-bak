@@ -2166,7 +2166,7 @@ $EndComp
 Connection ~ 6975 8575
 Text GLabel 3375 7000 0    50   Input ~ 0
 reset
-Text GLabel 8925 7400 2    50   Input ~ 0
+Text GLabel 8900 7400 2    50   Input ~ 0
 reset
 Wire Wire Line
 	3975 6700 4075 6700
@@ -2227,29 +2227,6 @@ D-
 Text GLabel 7425 7675 2    50   Input ~ 0
 D+
 $Comp
-L Device:Crystal Y1
-U 1 1 5D1F9BED
-P 2975 7300
-F 0 "Y1" V 2929 7431 50  0000 L CNN
-F 1 "Crystal" V 3020 7431 50  0000 L CNN
-F 2 "cftkb:Crystal_HC49-4H_Vertical" H 2975 7300 50  0001 C CNN
-F 3 "~" H 2975 7300 50  0001 C CNN
-	1    2975 7300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2975 7150 3225 7150
-Wire Wire Line
-	3225 7150 3225 7200
-Wire Wire Line
-	3225 7200 3375 7200
-Wire Wire Line
-	2975 7450 3225 7450
-Wire Wire Line
-	3225 7450 3225 7400
-Wire Wire Line
-	3225 7400 3375 7400
-$Comp
 L Device:C_Small C2
 U 1 1 5D22BD08
 P 2975 7650
@@ -2271,14 +2248,6 @@ F 3 "~" H 2825 7650 50  0001 C CNN
 	1    2825 7650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2975 7450 2975 7550
-Connection ~ 2975 7450
-Wire Wire Line
-	2975 7150 2825 7150
-Wire Wire Line
-	2825 7150 2825 7550
-Connection ~ 2975 7150
 Wire Wire Line
 	2825 7750 2975 7750
 $Comp
@@ -2472,12 +2441,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0108
 U 1 1 5D23F01D
-P 8425 6800
-F 0 "#PWR0108" H 8425 6890 20  0001 C CNN
-F 1 "+5V" H 8421 6928 30  0000 C CNN
-F 2 "" H 8425 6800 60  0000 C CNN
-F 3 "" H 8425 6800 60  0000 C CNN
-	1    8425 6800
+P 8400 6800
+F 0 "#PWR0108" H 8400 6890 20  0001 C CNN
+F 1 "+5V" H 8396 6928 30  0000 C CNN
+F 2 "" H 8400 6800 60  0000 C CNN
+F 3 "" H 8400 6800 60  0000 C CNN
+	1    8400 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2489,7 +2458,7 @@ F 1 "RESET" H 6725 10489 50  0000 C CNN
 F 2 "cftkb:SW_PUSH_6mm" H 6725 10325 60  0001 C CNN
 F 3 "" H 6725 10325 60  0000 C CNN
 	1    6725 10325
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text GLabel 7325 10325 2    50   Input ~ 0
 reset
@@ -2510,11 +2479,11 @@ Text GLabel 4575 8500 2    50   Input ~ 0
 MISO
 Text GLabel 4575 8600 2    50   Input ~ 0
 SCK
-Text GLabel 8925 7100 2    50   Input ~ 0
+Text GLabel 8900 7100 2    50   Input ~ 0
 MISO
-Text GLabel 8925 7200 2    50   Input ~ 0
+Text GLabel 8900 7200 2    50   Input ~ 0
 MOSI
-Text GLabel 8925 7300 2    50   Input ~ 0
+Text GLabel 8900 7300 2    50   Input ~ 0
 SCK
 Text GLabel 4575 7900 2    50   Input ~ 0
 row4
@@ -2636,7 +2605,7 @@ F 1 "BOOT" H 6950 9764 50  0000 C CNN
 F 2 "cftkb:SW_PUSH_6mm" H 6950 9600 60  0001 C CNN
 F 3 "" H 6950 9600 60  0000 C CNN
 	1    6950 9600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0117
@@ -2658,12 +2627,12 @@ Text Notes 15550 11050 2    50   ~ 0
 $Comp
 L power:GND #PWR0106
 U 1 1 5D525CFA
-P 8425 7700
-F 0 "#PWR0106" H 8425 7450 50  0001 C CNN
-F 1 "GND" H 8430 7527 50  0000 C CNN
-F 2 "" H 8425 7700 50  0001 C CNN
-F 3 "" H 8425 7700 50  0001 C CNN
-	1    8425 7700
+P 8400 7700
+F 0 "#PWR0106" H 8400 7450 50  0001 C CNN
+F 1 "GND" H 8405 7527 50  0000 C CNN
+F 2 "" H 8400 7700 50  0001 C CNN
+F 3 "" H 8400 7700 50  0001 C CNN
+	1    8400 7700
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3375 7600
@@ -2987,7 +2956,7 @@ Wire Wire Line
 	10550 5900 10550 5250
 Connection ~ 10550 5250
 $Comp
-L discipline-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
+L MCU_Microchip_ATmega:ATmega32A-PU U1
 U 1 1 5DF0B623
 P 3975 8700
 F 0 "U1" H 3825 8800 50  0000 C CNN
@@ -3103,14 +3072,37 @@ RESET
 Text Notes 7975 9275 0    157  ~ 31
 POWER LED
 $Comp
-L discipline-pcb-rescue:AVR-ISP-6-Connector J1
+L Device:Crystal_Small Y1
+U 1 1 5F0E7676
+P 2975 7300
+F 0 "Y1" V 2929 7388 50  0000 L CNN
+F 1 "Crystal" V 3020 7388 50  0000 L CNN
+F 2 "cftkb:Crystal_HC49-4H_Vertical" H 2975 7300 50  0001 C CNN
+F 3 "~" H 2975 7300 50  0001 C CNN
+	1    2975 7300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3375 7200 2975 7200
+Wire Wire Line
+	3375 7400 2975 7400
+Wire Wire Line
+	2975 7400 2975 7550
+Connection ~ 2975 7400
+Wire Wire Line
+	2975 7200 2825 7200
+Wire Wire Line
+	2825 7200 2825 7550
+Connection ~ 2975 7200
+$Comp
+L Connector:AVR-ISP-6 J1
 U 1 1 5D525B77
-P 8525 7300
-F 0 "J1" H 8725 7850 50  0000 R CNN
-F 1 "AVR-ISP-6" H 8925 7750 50  0000 R CNN
-F 2 "cftkb:AVR_ICSP_3x2" V 8275 7350 50  0001 C CNN
-F 3 " ~" H 7250 6750 50  0001 C CNN
-	1    8525 7300
+P 8500 7300
+F 0 "J1" H 8700 7850 50  0000 R CNN
+F 1 "AVR-ISP-6" H 8900 7750 50  0000 R CNN
+F 2 "cftkb:AVR_ICSP_3x2" V 8250 7350 50  0001 C CNN
+F 3 " ~" H 7225 6750 50  0001 C CNN
+	1    8500 7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
