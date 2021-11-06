@@ -24,4 +24,4 @@
 2.  [3x m2x6mm screws](https://www.aliexpress.com/item/32870342767.html?spm=a2g0o.productlist.0.0.27966799mfy194&algo_pvid=98f7a66e-57d9-4ca1-95a8-3b2bc99288b9&algo_expid=98f7a66e-57d9-4ca1-95a8-3b2bc99288b9-13&btsid=da4f7f18-e93d-4ac9-b663-3a1246c85e80&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 3.  [3x m2x5mm screws](https://www.aliexpress.com/item/32870342767.html?spm=a2g0o.productlist.0.0.27966799mfy194&algo_pvid=98f7a66e-57d9-4ca1-95a8-3b2bc99288b9&algo_expid=98f7a66e-57d9-4ca1-95a8-3b2bc99288b9-13&btsid=da4f7f18-e93d-4ac9-b663-3a1246c85e80&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 
-![](../doc/images/discipline-konmomo.png)
+![konMomo](../doc/images/discipline-KonMomo.png)
